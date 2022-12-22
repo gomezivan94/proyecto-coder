@@ -1,0 +1,53 @@
+@import 'global';
+@import 'index';
+@import 'historia';
+@import 'merchandising';
+@import 'media';
+@import 'contacto';
+
+@media (max-width:1200px) {
+    .contenedorEquipos-art p {
+        width: 300px;
+        max-height: 400px;
+        overflow: scroll;
+    }
+}
+
+@media (max-width: 1070px) {
+    .historiaImg {
+        width: 450px;
+    }
+}
+
+@media (max-width :900px) {
+    .contenedorEquipos-art p {
+        width: 85%;
+    }
+}
+
+@media (max-width: 750px) {
+    nav {
+        display: none;
+    }
+    .hamburguesa {
+        display: block;
+    }
+    .contenedorEquipos {
+    
+        background-color: rgba(0, 0, 0, 0.338);
+        color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .contenedorEquipos-art {
+        max-height: 70%;
+    }
+}
+
+@media (max-width: 455px) {
+    .historiaImg {
+        width: 95%;
+    }
+}

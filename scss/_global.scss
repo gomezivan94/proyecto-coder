@@ -1,0 +1,96 @@
+*{
+
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Play', sans-serif;}
+
+body {
+    padding: 0% 5% 2% 5% ;
+    background-image: url(../assets/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Play', sans-serif;
+ 
+}
+
+// HEADER
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    margin-bottom: 1% ;
+
+}
+
+.logo {
+    width: 200px;
+    height: 125px;
+}
+
+.hamburguesa {
+    display: none;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+nav ul {
+    display: flex;
+    align-items: flex-end;
+}
+
+nav li{
+    margin: 15px;
+    list-style: none;
+}
+
+nav a{
+
+    text-decoration: none;
+    font-size: 20px;
+    color: azure;
+}
+
+nav a:hover {
+
+    transform: scale(1.2);
+    transition-duration: 0.4s;
+    color: rgb(255, 58, 58);
+    font-weight: bold;
+    text-decoration: overline;
+    
+}
+
+// FOOTER
+
+footer {
+
+    width: 100%;
+    border-radius: 30px;
+    background-color: rgba(92, 92, 92, 0.486);
+}
+
+.social {
+
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+.social__item {
+
+    margin: 0px 25px;
+
+}
+
+.social__item:hover {
+
+    transform: scale(1.2);
+}

@@ -1,0 +1,30 @@
+.merch {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.merchItem {
+
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    margin: 10px;
+
+}
+
+.merchImg{
+
+    width: 300px;
+    height: 300px;
+
+}
