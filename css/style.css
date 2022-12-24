@@ -38,6 +38,7 @@ footer {
 
 .hero {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 15px; }
@@ -273,7 +274,9 @@ ul {
 
 @media (max-width: 900px) {
   .contenedorEquipos-art p {
-    width: 85%; } }
+    width: 85%; }
+  .hero {
+    flex-direction: column; } }
 
 @media (max-width: 768px) {
   .logo {
@@ -286,7 +289,9 @@ ul {
     align-items: center;
     justify-content: center; }
   .contenedorEquipos-art {
-    max-height: 70%; } }
+    max-height: 70%; }
+  .hero {
+    flex-direction: column; } }
 
 @media (max-width: 455px) {
   .historiaImg {
