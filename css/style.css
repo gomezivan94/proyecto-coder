@@ -11,61 +11,30 @@ body {
   background-size: cover;
   font-family: 'Play', sans-serif; }
 
-header {
+header nav .container-fluid {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-wrap: inherit;
   align-items: center;
-  border-radius: 30px;
-  margin-bottom: 1%; }
+  justify-content: space-between; }
 
-.logo {
-  width: 200px;
-  height: 125px; }
-
-.hamburguesa {
-  display: none;
-  color: white;
-  font-size: 40px;
-  font-weight: bold; }
-
-nav ul {
-  display: flex;
-  align-items: flex-end; }
-
-nav li {
-  margin: 15px;
-  list-style: none; }
-
-nav a {
-  text-decoration: none;
-  font-size: 20px;
-  color: azure; }
-
-nav a:hover {
-  transform: scale(1.2);
-  transition-duration: 0.4s;
-  color: #ff3a3a;
-  font-weight: bold;
-  text-decoration: overline; }
+header .logo {
+  width: 150px;
+  height: 150px; }
 
 footer {
   width: 100%;
   border-radius: 30px;
   background-color: rgba(92, 92, 92, 0.486); }
-
-.social {
-  margin-top: 5%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  list-style: none; }
-
-.social__item {
-  margin: 0px 25px; }
-
-.social__item:hover {
-  transform: scale(1.2); }
+  footer .social {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none; }
+    footer .social .social__item {
+      margin: 0px 25px; }
+    footer .social .social__item:hover {
+      transform: scale(1.2); }
 
 .hero {
   display: flex;
@@ -75,7 +44,7 @@ footer {
 
 .hero-text {
   text-align: center;
-  color: white; }
+  color: #fff; }
 
 .playerData {
   text-align: center;
@@ -95,7 +64,7 @@ footer {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  color: white; }
+  color: #fff; }
 
 .stats__title {
   text-decoration: underline; }
@@ -105,17 +74,17 @@ footer {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  color: aliceblue;
+  color: #fff;
   font-size: 20px; }
 
 .tituloEquipos {
   font-family: 'play', sans-serif;
   font-size: 24px;
-  color: aliceblue; }
+  color: #fff; }
 
 .contenedorEquipos {
   background-color: rgba(0, 0, 0, 0.338);
-  color: aliceblue;
+  color: #fff;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -148,7 +117,7 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: white;
+  background-color: #fff;
   margin: 10px; }
 
 .merchImg {
@@ -168,10 +137,10 @@ footer {
 
 .logo {
   font-size: 40px;
-  color: whitesmoke; }
+  color: #fff; }
 
 .contact-form h3 {
-  color: whitesmoke; }
+  color: #fff; }
 
 form {
   display: flex;
@@ -205,7 +174,7 @@ ul {
 
 .contact-form {
   background: rgba(0, 0, 0, 0.148);
-  color: white; }
+  color: #fff; }
 
 .contact-form form {
   display: grid;
@@ -248,7 +217,7 @@ ul {
 .contact-info h4, .contact-info ul, .contact-info p {
   text-align: center;
   margin: 0 0 1rem 0;
-  color: white; }
+  color: #fff; }
 
 @media (max-width: 1200px) {
   .contenedorEquipos-art p {
@@ -264,11 +233,9 @@ ul {
   .contenedorEquipos-art p {
     width: 85%; } }
 
-@media (max-width: 750px) {
-  nav {
+@media (max-width: 768px) {
+  .logo {
     display: none; }
-  .hamburguesa {
-    display: block; }
   .contenedorEquipos {
     background-color: rgba(0, 0, 0, 0.338);
     color: aliceblue;
@@ -281,6 +248,4 @@ ul {
 
 @media (max-width: 455px) {
   .historiaImg {
-    width: 95%; 
-  } 
-}
+    width: 95%; } }

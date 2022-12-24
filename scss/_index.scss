@@ -10,7 +10,7 @@
 .hero-text{
 
     text-align: center;
-    color: white;
+    color: $primaryFonts;
 }
 
 .playerData {
@@ -35,7 +35,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    color: white;
+    color: $primaryFonts;
 }
 
 .stats__title {

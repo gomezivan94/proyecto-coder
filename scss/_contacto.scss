@@ -1,10 +1,10 @@
 .logo {
     font-size: 40px;
-    color: whitesmoke;
+    color: $primaryFonts ;
 }
 
 .contact-form h3 {
-    color: whitesmoke;
+    color: $primaryFonts ;
 }
 
 form {
@@ -46,7 +46,7 @@ ul {
 
 .contact-form {
     background: rgba(0, 0, 0, 0.148);
-    color: white;
+    color: $primaryFonts;
 }
 
 .contact-form form {
@@ -75,7 +75,7 @@ ul {
     border: none;
     background: none;
     outline: 0;
-    color: #fff;
+    color: $primaryFonts;
     border-bottom: 1px solid #d63031;
 }
 
@@ -89,7 +89,7 @@ ul {
 .contact-form form button:hover,
 .contact-form form button:focus {
     background: #d63031;
-    color: #fff;
+    color: $primaryFonts;
     transition: background-color 1s ease-out;
     outline: 0;
 }
@@ -98,5 +98,5 @@ ul {
 .contact-info h4, .contact-info ul, .contact-info p {
     text-align: center;
     margin: 0 0 1rem 0;
-    color: white;
+    color: $primaryFonts;
 }

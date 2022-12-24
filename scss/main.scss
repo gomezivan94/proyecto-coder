@@ -25,13 +25,12 @@
     }
 }
 
-@media (max-width: 750px) {
-    nav {
+@media (max-width: 768px) {
+
+    .logo{
         display: none;
     }
-    .hamburguesa {
-        display: block;
-    }
+   
     .contenedorEquipos {
     
         background-color: rgba(0, 0, 0, 0.338);
