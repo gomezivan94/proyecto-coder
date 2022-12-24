@@ -109,20 +109,62 @@ footer {
   align-items: center;
   flex-wrap: wrap; }
 
-.merchItem {
-  width: 350px;
-  height: 450px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: #fff;
-  margin: 10px; }
+.card {
+  width: 190px;
+  height: 254px;
+  padding: .8em;
+  background: #f5f5f5;
+  position: relative;
+  overflow: visible;
+  margin: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
 
-.merchImg {
-  width: 300px;
-  height: 300px; }
+.card-img {
+  background-color: #ffcaa6;
+  height: 45%;
+  width: 100%;
+  border-radius: .5rem;
+  transition: .3s ease; }
+
+svg {
+  width: 20px;
+  height: 20px; }
+
+.card-footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  border-top: 1px solid #ddd; }
+
+/*Text*/
+.text-title {
+  font-weight: 900;
+  font-size: 1.2em;
+  line-height: 1.5; }
+
+.text-body {
+  font-size: .9em;
+  padding-bottom: 10px; }
+
+/*Button*/
+.card-button {
+  border: 1px solid #252525;
+  display: flex;
+  padding: .3em;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: .3s ease-in-out; }
+
+/*Hover*/
+.card:hover {
+  transform: scale(1.2);
+  box-shadow: rgba(226, 196, 63, 0.25) 0px 13px 47px -5px, rgba(180, 71, 71, 0.3) 0px 8px 16px -8px; }
+
+.card-button:hover {
+  border: 1px solid #ffcaa6;
+  background-color: #ffcaa6; }
 
 .media {
   display: flex;
