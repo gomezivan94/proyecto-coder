@@ -45,24 +45,6 @@ footer {
     border-radius: 30px;
     background-color: rgba(92, 92, 92, 0.486);
     
-    .social {
-    
-        margin-top: 5%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        list-style: none;
-        
-        .social__item {
-        
-            margin: 0px 25px;
-        
-        }
-        .social__item:hover {
-        
-            transform: scale(1.2);
-        }
-    }
 }
 
 
