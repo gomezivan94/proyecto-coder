@@ -281,7 +281,9 @@ ul {
   .contenedorEquipos-art {
     max-height: 70%; }
   .hero {
-    flex-direction: column; } }
+    flex-direction: column; }
+  iframe {
+    width: 430px; } }
 
 @media (max-width: 455px) {
   .historiaImg {
